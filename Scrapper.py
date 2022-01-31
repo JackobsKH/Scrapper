@@ -137,26 +137,3 @@ for category_name, category_href in all_categories.items():
 		break
 
 	print(f"Осталось итераций: {iteration_count}")
-	#sleep(random.randrange(2, 4))
-
-# def parse(url):
-# 	api = requests.get(url)
-# 	tree = lxml.html.document_fromstring(api.text)
-# 	text_original = tree.xpath('/html/body/main/div/div[2]/div[1]/div/div/div/div/a/div[2]/h3/text()')
-# 	# //*[@id="title-3 advisors-result-card-title"]
-# 	# /html/body/main/div/div[2]/div[1]/div/div/div/div[3]/a/div[2]/h3
-# 	# /html/body/main/div/div[2]/div[1]/div/div/div/div[2]/a/div[2]/h3
-# 	print(text_original)
-
-
-# 	# with open('chor.txt', 'w') as file:
-# 	# 	for i in range (0,len(text_original)):
-# 	# 		file.write(str(text_original[i]))
-			
-
-# def main():
-# 	parse("https://www.xero.com/au/advisors/find-advisors/australia/?type=advisors&orderBy=ADVISOR_RELEVANCE&sort=ASC&pageNumber=1")
-
-
-# if __name__ == "__main__":
-# 	main()
